@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #60bf70 !important;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #57d96d !important;
+}
+
+a.active {
+  color: #57d96d !important;
+}
+
+.navbar {
+  /*margin: 0;*/
+  width: 100%;
+  /*height: 140px;*/
+  background-color: rgb(12, 159, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /*text-decoration: none;*/
+  text-align: center;
+  padding: 1rem 6%;
+  box-shadow: 3;
+  margin-bottom: 2;
+}
+
+.login {
+  /*margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 5;
+  margin-bottom: 2;
+  border-radius: 5;
+  width: 100%;
+  height: 330px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  text-align: center;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);*/
+  margin: 2rem auto;
+  width: 100%;
+  height: 330px;
+}
+
+.register{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 45%;
+  height: 380px;
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 100%;
+  height: 800px;
+}
+
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 100%;
+  height: 800px;
+}
+
+.chatbot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 100%;
+  height: 800px;
+}
+
+.jsconverter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 100%;
+  height: 800px;
+}
+
+.scifiimage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem auto;
+  width: 100%;
+  height: 800px;
+}
+
+.chatgpt{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.homepagesx{
+  display: flex;
+  flex-direction: row;
+}
+
+.summarysx{
+  font-weight: bold;
+}
+
+.summarycard{
+  box-shadow: 20px;
+  height: 190px;
+  width: 190px;
+}
+
+.summarycard:hover{
+  cursor: pointer;
+}
+
+.summarydr{
+  color: rgb(12, 159, 12);
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.summarystack{
+  padding: 10%;
+  padding-top: 0;
+}
+
+.summaryh8{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paragraphh9{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.paragraphcard{
+  box-shadow: 20px;
+  height: 190px;
+  width: 190px;
+}
+
+.paragraphfar{
+  color: rgb(12, 159, 12);
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.paragraphstack{
+  padding: 10%;
+  padding-top: 0;
+}
+
+.paragraphh8{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chatboth9{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.chatbotcr{
+  color: rgb(12, 159, 12);
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.chatboth8{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chatbotstack{
+  padding: 10%;
+  padding-top: 0;
+}
+
+.javascripth9{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.javascriptcard{
+  box-shadow: 20px;
+  height: 190px;
+  width: 190px;
+}
+
+.javascriptcr{
+  color: rgb(12, 159, 12);
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.javascriptstack{
+  padding: 10%;
+  padding-top: 0;
+}
+
+.javascripth8{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.scifih9{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.scificr{
+  color: rgb(12, 159, 12);
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.scifistack{
+  padding: 10%;
+  padding-top: 0;
+}
+
+.scifih8{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.registerh9{
+  font-size: x-large;
+}
+
+.loginh9{
+  font-size: x-large;
+}
